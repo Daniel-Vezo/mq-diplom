@@ -511,6 +511,9 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 5px;
+    -webkit-transition: color 0.2s linear;
+    -o-transition: color 0.2s linear;
+    transition: color 0.2s linear;
 }
 
 .tags-item {
@@ -526,6 +529,9 @@ body {
     color: #b59f5b;
     font-weight: bold;
     text-transform: uppercase;
+    -webkit-transition: color 0.2s linear;
+    -o-transition: color 0.2s linear;
+    transition: color 0.2s linear;
 }
 
 .tags-item-link:hover,
@@ -675,6 +681,9 @@ body {
     color: #0f0d0e;
     font-weight: bold;
     text-transform: uppercase;
+    -webkit-transition: color 0.2s linear;
+    -o-transition: color 0.2s linear;
+    transition: color 0.2s linear
 }
 
 .article-main-title-link:hover,
@@ -763,6 +772,9 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     color: #0f0d0e;
+    -webkit-transition: color 0.2s linear;
+    -o-transition: color 0.2s linear;
+    transition: color 0.2s linear
 }
 
 .article-new-posts-title-link:hover,
@@ -907,6 +919,9 @@ body {
     font-size: 14px;
     color: #000000;
     font-weight: bold;
+    -webkit-transition: color 0.2s linear;
+    -o-transition: color 0.2s linear;
+    transition: color 0.2s linear
 }
 
 .topics-item-link:hover,
@@ -1199,12 +1214,6 @@ body {
     height: 20px;
 }
 
-.social-icons-link:hover,
-.social-icons-link:focus {
-    outline: 1px solid #b59f5b;
-    outline-offset: 5px;
-}
-
 .social-icons-link-twitter {
     background: url("../svg/004-twitter.svg") no-repeat center;
     width: 25px;
@@ -1236,6 +1245,9 @@ body {
     font-size: 12px;
     font-weight: bold;
     color: #bebebe;
+    -webkit-transition: color 0.2s linear;
+    -o-transition: color 0.2s linear;
+    transition: color 0.2s linear
 }
 
 .copyright-link:hover,
